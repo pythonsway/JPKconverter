@@ -1,0 +1,1 @@
+@py.exe C:\Users\py\Desktop\jpk_project\JPKconverter\jpk.py %*
