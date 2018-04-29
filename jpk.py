@@ -14,6 +14,7 @@ plikSchemat = glob.glob(schemat + '\\*.csv')
 
 
 def main():
+    """ Generates pre-prepared 'JPK.csv' """
     for plik in plikiKaper:
         with open(plik[0], 'r') as in_text, open(plik[0] + '.csv', 'w', newline='') as out_csv:
             in_reader = list(csv.reader(in_text, delimiter='|'))
